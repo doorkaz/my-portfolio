@@ -1,10 +1,12 @@
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import styles from './styles.module.css';
 
 const CustomNavbar = () => {
     return (
-        <Navbar expand="lg" className="bg-body-terciary shadow-sm p-3 bg-white rounded">
+        <Navbar id="navbar" expand="lg" className={`bg-body-terciary bg-white shadow-sm p-3 rounded ${styles["navbar-fix"]}`}>
             <Container>
                 <Navbar.Brand className="d-flex flex-column justify-content-start align-items-start fs-6" href="/" style={{ lineHeight: '1' }}>
                     <span>Pablo</span>

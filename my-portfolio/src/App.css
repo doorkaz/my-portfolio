@@ -4,6 +4,7 @@
   text-align: center;
   height: 100vh;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .custom-div {
