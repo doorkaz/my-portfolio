@@ -1,4 +1,4 @@
-# README
+# Leelo en inglés
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/doorkaz/my-portfolio/blob/main/README.md)
 
 # My portfolio
