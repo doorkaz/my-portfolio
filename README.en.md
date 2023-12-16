@@ -2,6 +2,7 @@
 This is my portfolio made with ReactJS, CSS, Bootstrap, JavaScript, HTML5
 
 Leelo en español
+
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/doorkaz/my-portfolio/blob/main/README.md)
 
 ## Author
