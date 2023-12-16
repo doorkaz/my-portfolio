@@ -60,3 +60,7 @@ li {
 .logo {
     border-radius: 50%;
 }
+
+.copy-to-clipboard {
+    color: rgb(182, 193, 253);
+}

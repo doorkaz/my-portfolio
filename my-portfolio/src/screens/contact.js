@@ -27,7 +27,7 @@ const Contact = () => {
                         </Row>
                         <Row>
                             <div className='d-flex align-items-start justify-content-start'>
-                                <i className='bi bi-telephone'/>
+                                <i className='bi bi-telephone me-1'/>
                                 <a
                                 id="phone"
                                 className={styles["link"]} 
@@ -37,7 +37,7 @@ const Contact = () => {
                                     +56 9 8947 6136
                                 </a> 
                                 <img src="/images/contact/copytoclipboard.png" width='22' alt="c"/>
-                                {copied ==="phone" && <p>(Copiado)</p>}
+                                {copied ==="phone" && <p className={`${styles["copy-to-clipboard"]}`}>(Copiado)</p>}
                             </div>
                         </Row>
                     </Col>
@@ -50,7 +50,7 @@ const Contact = () => {
                         </Row>
                         <Row>
                             <div className='d-flex align-items-start justify-content-start'>
-                                <i className="bi bi-envelope"></i>
+                                <i className="bi bi-envelope me-1"></i>
                                 <a
                                 id="email"
                                 className={styles["link"]} 
@@ -60,7 +60,7 @@ const Contact = () => {
                                 retamalespj@gmail.com
                                 </a> 
                                 <img src="/images/contact/copytoclipboard.png" width='22' alt="c"/>
-                                {copied ==="email" && <p>(Copiado)</p>}
+                                {copied ==="email" && <p className={`${styles["copy-to-clipboard"]}`}>(Copiado)</p>}
                             </div>
                         </Row>
                     </Col>
