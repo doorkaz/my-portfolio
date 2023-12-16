@@ -10,24 +10,33 @@ const about = () => {
                 <h3>Mis principales competencias</h3>
                 <ul>
                     <li>
-                        <span>PYTHON</span>
-                        <img src="images/skills/python.png" alt="python" width={30}/>
+                        <span style={{fontSize: '18px'}}>PYTHON</span>
+                        <img src="images/skills/python.png" alt="python" width={50}/>
                     </li>
                     <li>
-                        <span>REACTJS</span>
-                        <img src="images/skills/reactjs.png" alt="reactjs" width={30}/>
+                        <span style={{fontSize: '18px'}}>REACTJS</span>
+                        <img src="images/skills/reactjs.png" alt="reactjs" width={50}/>
                     </li>
                     <li>
-                        <span>JAVASCRIPT</span>
-                        <img src="images/skills/javascript.png" alt="javascript" width={30}/>
+                        <span style={{fontSize: '18px'}}>JAVASCRIPT</span>
+                        <img src="images/skills/javascript.png" alt="javascript" width={50}/>
+                    </li>
+                    
+                    <li>
+                        <span style={{fontSize: '18px'}}>SQL</span>
+                        <img src="images/skills/sql.png" alt="sql" width={50}/>
                     </li>
                     <li>
-                        <span>HTML5</span>
-                        <img src="images/skills/html.png" alt="html5" width={30}/>
+                        <span style={{fontSize: '18px'}}>CSS</span>
+                        <img src="images/skills/css.svg" alt="css" width={50}/>
                     </li>
                     <li>
-                        <span>SQL</span>
-                        <img src="images/skills/sql.png" alt="sql" width={30}/>
+                        <span style={{fontSize: '18px'}}>HTML5</span>
+                        <img src="images/skills/html.png" alt="html5" width={50}/>
+                    </li>
+                    <li>
+                        <span style={{fontSize: '18px'}}>BOOTSTRAP</span>
+                        <img src="images/skills/bootstrap.png" alt="bootstrap" width={50}/>
                     </li>
                 </ul>
             </section>

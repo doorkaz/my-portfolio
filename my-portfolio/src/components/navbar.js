@@ -8,7 +8,7 @@ const CustomNavbar = () => {
     return (
         <Navbar id="navbar" expand="lg" className={`bg-body-terciary bg-white shadow-sm p-3 rounded ${styles["navbar-fix"]}`}>
             <Container>
-                <Navbar.Brand className="d-flex flex-column justify-content-start align-items-start fs-6" href="/" style={{ lineHeight: '1' }}>
+                <Navbar.Brand className="d-flex flex-column justify-content-start align-items-start fs-6 ms-2" href="/" style={{ lineHeight: '1' }}>
                     <span>Pablo</span>
                     <span>Retamales</span>
                 </Navbar.Brand>

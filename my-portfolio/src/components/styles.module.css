@@ -41,6 +41,7 @@ li {
     backdrop-filter: blur(0.5px);
     border-radius: 0.2rem;
     padding: 1;
+    margin: 0;
 }
 
 .navbar-fix {
@@ -49,4 +50,13 @@ li {
     width: 100%;
     overflow: hidden;
     z-index: 2;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    border-radius: 50%;
 }

@@ -13,8 +13,8 @@ function App() {
 		<div className="App">
 			<div className="custom-div">
 				<CustomNavbar/>
-				<CarouselProjects/>
 				<Container>
+					<CarouselProjects/>
 					<About/>
 					<Projects/>
 				</Container>

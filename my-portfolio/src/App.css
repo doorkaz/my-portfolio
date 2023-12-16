@@ -10,3 +10,7 @@
 .custom-div {
   flex: 1;
 }
+
+a:hover {
+  color: rgb(72, 188, 226);
+}
