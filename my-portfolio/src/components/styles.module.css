@@ -35,3 +35,10 @@ li {
     flex-direction: column;
     align-items: center;
 }
+
+.glass-efect{
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+    border-radius: 0.2rem;
+    padding: 5;
+}

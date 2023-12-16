@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const CustomNavbar = () => {
     return (
-        <Navbar expand="lg" className="bg-body-terciary shadow-sm p-3 mb-5 bg-white rounded">
+        <Navbar expand="lg" className="bg-body-terciary shadow-sm p-3 bg-white rounded">
             <Container>
                 <Navbar.Brand className="d-flex flex-column justify-content-start align-items-start fs-6" href="/" style={{ lineHeight: '1' }}>
                     <span>Pablo</span>

@@ -13,12 +13,12 @@ const Contact = () => {
                     <Col xs={10} md={10} lg={10}>
                         <div className='d-flex me-4'>
                             <div className='me-4'>
-                                <i className='bi bi-linkedin'></i> 
-                                <span>linkedin.com/in/pablo-retamales-jara-b95511232</span>
+                                <i className='bi bi-linkedin'/> 
+                                <span> linkedin.com/in/pablo-retamales-jara-b95511232</span>
                             </div>
                             <div className='me-4'>
-                                <i className='bi bi-telephone'></i> 
-                                <span>+56 9 8947 6136</span> 
+                                <i className='bi bi-telephone'/>
+                                <span> +56 9 8947 6136</span> 
                             </div>
                         </div> 
                     </Col>
