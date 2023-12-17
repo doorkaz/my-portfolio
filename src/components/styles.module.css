@@ -64,3 +64,54 @@ li {
 .copy-to-clipboard {
     color: rgb(182, 193, 253);
 }
+
+.carousel-img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-responsive{
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+/* BREAKPOINTS */
+/* SMALL DEVICES */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    .footer-responsive{
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-responsive{
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    body {
+        font-size: 14px;
+    }
+    .contact-responsive{
+        align-items: start;
+        justify-content: start;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 1024px){
+    body {
+        font-size: 16px;
+    }
+
+    .footer-responsive{
+        align-items: start;
+        justify-content: start;
+    }
+    .contact-responsive{
+        align-items: start;
+        justify-content: start;
+    }
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import './components/custom.scss';
 // Rutas
 import CustomNavbar from './components/navbar.js';
 import CarouselProjects from './screens/carousel-projects.js';

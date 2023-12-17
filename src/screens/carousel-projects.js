@@ -3,23 +3,23 @@ import styles from '../components/styles.module.css';
 function CarouselProjects() {
   return (
 	<div className="d-flex flex-column align-items-center justify-content-center">
-		<Carousel fade style={{height: '400px', width: '800px'}} >
-			<Carousel.Item interval={2000} style={{width: '800px'}}>
-				<img src={process.env.PUBLIC_URL +"/images/carousel/claps.png"} height='400' alt="First slide"/>
+		<Carousel fade className={styles["carousel-responsive"]}>
+			<Carousel.Item interval={2000} className={`${styles["carousel-item-responsive"]}`}>
+				<img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps.png"} alt="First slide"/>
 				<Carousel.Caption className={styles["glass-efect"]}>
-					<h3>Claps App</h3>	
+					<h3 className={styles["carousel-caption-text"]}>Claps App</h3>	
 				</Carousel.Caption>
 			</Carousel.Item>
-			<Carousel.Item interval={2000} style={{width: '800px'}}>
-				<img src={process.env.PUBLIC_URL +"/images/carousel/easytake.png"} height='400' alt="Second slide"/>
+			<Carousel.Item interval={2000} className={`${styles["carousel-item-responsive"]}`}>
+				<img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake.png"} alt="Second slide"/>
 				<Carousel.Caption className={styles["glass-efect"]}>
-					<h3>EasyTake</h3>
+					<h3 className={styles["carousel-caption-text"]}>EasyTake</h3>
 				</Carousel.Caption>
 			</Carousel.Item>
-			<Carousel.Item interval={2000} style={{width: '800px'}}>
-				<img src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels.png"} height='400' alt="Third slide"/>
+			<Carousel.Item interval={2000} className={`${styles["carousel-item-responsive"]}`}>
+				<img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels.png"} alt="Third slide"/>
 				<Carousel.Caption className={styles["glass-efect"]}>
-					<h3>PrestigeTravels</h3>
+					<h3 className={styles["carousel-caption-text"]}>PrestigeTravels</h3>
 				</Carousel.Caption>
 			</Carousel.Item>
 		</Carousel>
