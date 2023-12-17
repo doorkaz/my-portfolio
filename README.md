@@ -10,7 +10,7 @@ Este es mi portafolio creado con ReactJS, CSS, Bootstrap, JavaScript, HTML5
 
 * [LinkedIn](https://www.linkedin.com/in/pablo-retamales-jara-b95511232/)
 
-* [Prueba](https://doorkaz.github.io/)
+Vea el repositorio [aquí](https://doorkaz.github.io/my-portfolio/)
 
 # Dependencies
 react-bootstrap bootstrap
