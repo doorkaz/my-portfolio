@@ -36,7 +36,7 @@ const Contact = () => {
                                 > 
                                     +56 9 8947 6136
                                 </a> 
-                                <img src="/images/contact/copytoclipboard.png" width='22' alt="c"/>
+                                <img src="images/contact/copytoclipboard.png" width='22' alt="c"/>
                                 {copied ==="phone" && <p className={`${styles["copy-to-clipboard"]}`}>(Copiado)</p>}
                             </div>
                         </Row>
@@ -59,7 +59,7 @@ const Contact = () => {
                                 > 
                                 retamalespj@gmail.com
                                 </a> 
-                                <img src="/images/contact/copytoclipboard.png" width='22' alt="c"/>
+                                <img src="images/contact/copytoclipboard.png" width='22' alt="c"/>
                                 {copied ==="email" && <p className={`${styles["copy-to-clipboard"]}`}>(Copiado)</p>}
                             </div>
                         </Row>
