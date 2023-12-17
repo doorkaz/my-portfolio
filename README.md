@@ -1,6 +1,7 @@
 # Mi portafolio
 Este es mi portafolio creado con ReactJS, CSS, Bootstrap, JavaScript, HTML5
 
+[El portafolio no está terminado, consulte mi portafolio provisorio!]
 ### Read this in English
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/doorkaz/my-portfolio/blob/main/README.en.md)
