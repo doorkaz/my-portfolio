@@ -14,7 +14,7 @@ function App() {
 		<div className="App">
 			<div className="custom-div">
 				<CustomNavbar/>
-				<Container>
+				<Container fluid>
 					<CarouselProjects/>
 					<About/>
 					<Projects/>

@@ -1,15 +1,8 @@
 .aboutme {
-    margin-left: 14rem;
-    margin-right: 14rem;
     margin-top: auto;
     text-align: center;
     align-items: center;
     justify-content: center;
-}
-
-.contact {
-    margin-left: 20rem;
-    margin-right: 20rem;
 }
 
 .footer {
@@ -75,6 +68,7 @@ li {
     height: auto;
     max-width: 800px;
 }
+
 /* BREAKPOINTS */
 /* SMALL DEVICES */
 @media screen and (max-width: 767px) {
@@ -89,6 +83,14 @@ li {
         align-items: center;
         justify-content: center;
     }
+    .aboutme{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    .hi{
+        height: auto;
+        width: 25px;
+    }
 }
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -98,6 +100,10 @@ li {
     .contact-responsive{
         align-items: start;
         justify-content: start;
+    }
+    .hi{
+        height: auto;
+        width: 30px;
     }
 }
 /* Desktop */
@@ -113,5 +119,9 @@ li {
     .contact-responsive{
         align-items: start;
         justify-content: start;
+    }
+    .hi{
+        height: auto;
+        width: 30px;
     }
 }
