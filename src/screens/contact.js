@@ -31,12 +31,12 @@ const Contact = () => {
                                 <a
                                 id="phone"
                                 className={styles["link"]} 
-                                href="/#" 
+                                href="#/" 
                                 onClick={handleCopyClick}
                                 > 
                                     +56 9 8947 6136
                                 </a> 
-                                <img src="images/contact/copytoclipboard.png" width='22' alt="c"/>
+                                <img src={process.env.PUBLIC_URL +"/images/contact/copytoclipboard.png"} width='22' alt="c"/>
                                 {copied ==="phone" && <p className={`${styles["copy-to-clipboard"]}`}>(Copiado)</p>}
                             </div>
                         </Row>
@@ -54,12 +54,12 @@ const Contact = () => {
                                 <a
                                 id="email"
                                 className={styles["link"]} 
-                                href="/#" 
+                                href="#/"
                                 onClick={handleCopyClick}
                                 > 
                                 retamalespj@gmail.com
                                 </a> 
-                                <img src="images/contact/copytoclipboard.png" width='22' alt="c"/>
+                                <img src={process.env.PUBLIC_URL +"/images/contact/copytoclipboard.png"} width='22' alt="c"/>
                                 {copied ==="email" && <p className={`${styles["copy-to-clipboard"]}`}>(Copiado)</p>}
                             </div>
                         </Row>
