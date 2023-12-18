@@ -33,16 +33,14 @@ li {
 
 .glass-efect{
     background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(0.5px);
+    backdrop-filter: blur(1px);
     border-radius: 0.2rem;
-    padding: 1;
+    padding: 0.4rem;
     margin: 0;
-    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .navbar-fix {
     position: sticky;
     top: 0;
