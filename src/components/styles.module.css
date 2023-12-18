@@ -42,6 +42,38 @@ li {
     justify-content: center;
 }
 
+.slider{
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track{
+    display: flex;
+    animation: scroll 5s linear infinite;
+    -webkit-animation: scroll 5s linear infinite;
+    width: calc(40px * 14);
+}
+.slider .slide{
+    width: 40px;
+}
+
+.slider .slide img{
+    width: 100%;
+}
+
+@keyframes scroll{
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-50px * 7));
+        transform: translateX(calc(-50px * 7));
+    }
+    
+}
 .footer {
     width: 100%;
     padding-top: 2.5rem;
@@ -97,7 +129,7 @@ li {
 
 
 .skills-img{
-    width: auto;
+    width: 40px;
     height: 40px;
 }
 
