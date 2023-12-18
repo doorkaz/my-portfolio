@@ -4,7 +4,7 @@ import styles from '../components/styles.module.css';
 function CarouselProjects() {
   return (
 	<div className="d-flex flex-column align-items-center justify-content-center mx-5">
-		<Carousel indicators={false} className={styles["carousel-responsive"]}>
+		<Carousel fade indicators={false} className={styles["carousel-responsive"]}>
 			<Carousel.Item interval={2000} className={`${styles["carousel-item-responsive"]}`}>
 				<img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps.png"} alt="First slide"/>
 				<Carousel.Caption className={styles["glass-efect"]}>

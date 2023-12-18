@@ -42,6 +42,22 @@ li {
     justify-content: center;
 }
 
+.project{
+    z-index: 1;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.project-img-container{
+    margin-top: auto;
+}
+
 .slider{
     width: 100vw;
     height: auto;
