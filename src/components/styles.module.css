@@ -96,8 +96,8 @@ span {
 }
 
 .skills-img{
-    height: auto;
-    max-width: 30px;
+    width: auto;
+    height: 40px;
 }
 /* BREAKPOINTS */
 /* XSMALL DEVICES */
@@ -121,10 +121,6 @@ span {
         height: auto;
         width: 15px;
     }
-
-    .skills-img{
-        width: 30px;
-    }
 }
 /* SMALL DEVICES */
 @media screen and (min-width:400px) and (max-width: 767px) {
@@ -147,10 +143,6 @@ span {
         height: auto;
         width: 25px;
     }
-    .skills-img{
-        height: auto;
-        max-width: 30px;
-    }
 }
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -169,15 +161,33 @@ span {
         height: auto;
         width: 30px;
     }
-    .skills-img{
-        height: auto;
-        max-width: 30px;
-    }
 }
 /* Desktop */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1199px){
     body {
-        font-size: 16px;
+        font-size: 17px;
+    }
+    .aboutme{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    .footer-responsive{
+        align-items: start;
+        justify-content: start;
+    }
+    .contact-responsive{
+        align-items: start;
+        justify-content: start;
+    }
+    .hi{
+        height: auto;
+        width: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 17px;
     }
     .aboutme{
         margin-left: 15rem;
@@ -194,9 +204,5 @@ span {
     .hi{
         height: auto;
         width: 30px;
-    }
-    .skills-img{
-        height: auto;
-        max-width: 40px;
     }
 }
