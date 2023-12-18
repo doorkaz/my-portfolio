@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import styles from '../components/styles.module.css';
 function CarouselProjects() {
   return (
-	<div className="d-flex flex-column align-items-center justify-content-center">
+	<div className="d-flex flex-column align-items-center justify-content-center mx-5">
 		<Carousel fade className={styles["carousel-responsive"]}>
 			<Carousel.Item interval={2000} className={`${styles["carousel-item-responsive"]}`}>
 				<img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps.png"} alt="First slide"/>
