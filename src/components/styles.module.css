@@ -1,16 +1,21 @@
-.aboutme {
-    margin-top: auto;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+h1 {
+    font-size: 1.6rem;
 }
 
-.footer {
-    width: 100%;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    background-color: rgb(29, 26, 26);
-    color: white;
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+span {
+    font-size: 1rem;
 }
 
 
@@ -26,21 +31,38 @@ ul {
 
 li {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
-.glass-efect{
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(1px);
-    border-radius: 0.2rem;
-    padding: 0.4rem;
-    margin: 0;
-    display: flex;
+.aboutme {
+    margin-top: auto;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
+
+.footer {
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(29, 26, 26);
+    color: white;
+}
+
+.glass-efect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .6);
+    backdrop-filter: blur(5px);
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    margin: 0;
+}
+
 .navbar-fix {
     position: sticky;
     top: 0;
@@ -73,29 +95,21 @@ li {
     max-width: 800px;
 }
 
-h1 {
-    font-size: 1.6rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-h3 {
-    font-size: 1.3rem;
-}
-
-h4 {
-    font-size: 1rem;
-}
-
-span {
-    font-size: 1rem;
-}
 
 .skills-img{
     width: auto;
     height: 40px;
+}
+
+.footer-item{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-column-res{
+    display: flex;
+    flex-direction: column;
 }
 /* BREAKPOINTS */
 /* XSMALL DEVICES */
@@ -107,7 +121,7 @@ span {
         align-items: center;
         justify-content: center;
     }
-    .contact-responsive{
+    .contact-column-res{
         align-items: center;
         justify-content: center;
     }
@@ -129,7 +143,7 @@ span {
         align-items: center;
         justify-content: center;
     }
-    .contact-responsive{
+    .contact-column-res{
         align-items: center;
         justify-content: center;
     }
@@ -147,7 +161,7 @@ span {
     body {
         font-size: 16px;
     }
-    .contact-responsive{
+    .contact-column-res{
         align-items: start;
         justify-content: start;
     }
@@ -173,7 +187,7 @@ span {
         align-items: start;
         justify-content: start;
     }
-    .contact-responsive{
+    .contact-column-res{
         align-items: start;
         justify-content: start;
     }
@@ -195,7 +209,7 @@ span {
         align-items: start;
         justify-content: start;
     }
-    .contact-responsive{
+    .contact-column-res{
         align-items: start;
         justify-content: start;
     }
