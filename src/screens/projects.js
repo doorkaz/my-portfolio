@@ -33,13 +33,10 @@ const Projects = () => {
                                 <h3>Claps App</h3>
                                 <Carousel className={styles["project-img-container"]} activeIndex={indexClaps} onSelect={handleSelectClaps}>
                                     <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps.png"} alt="First slide"/>
+                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps/canva1.png"} alt="1"/>
                                     </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps.png"} alt="First slide"/>
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps.png"} alt="First slide"/>
+                                      <Carousel.Item>
+                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps/canva2.png"} alt="2"/>
                                     </Carousel.Item>
                                 </Carousel>
                             </Col>
@@ -51,14 +48,15 @@ const Projects = () => {
                                     <p></p>
                                     <Carousel className={styles["project-img-container"]} activeIndex={indexEasyTake} onSelect={handleSelectEasyTake}>
                                         <Carousel.Item>
-                                            <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake.png"} alt="Second slide"/>
+                                            <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva1.png"} alt="1"/>
                                         </Carousel.Item>
                                         <Carousel.Item>
-                                            <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake.png"} alt="Second slide"/>
+                                            <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva2.png"} alt="2"/>
                                         </Carousel.Item>
                                         <Carousel.Item>
-                                            <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake.png"} alt="Second slide"/>
+                                            <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva3.png"} alt="3"/>
                                         </Carousel.Item>
+                                       
                                     </Carousel>
                             </Col>
                         </Col>
@@ -69,13 +67,16 @@ const Projects = () => {
                                 <p></p>
                                 <Carousel className={styles["project-img-container"]} activeIndex={indexPrestigeTravels} onSelect={handleSelectPrestigeTravels}>
                                     <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels.png"} alt="Second slide"/>
+                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva1.png"} alt="1"/>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels.png"} alt="Second slide"/>
+                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva2.png"} alt="2"/>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels.png"} alt="Second slide"/>
+                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva3.png"} alt="3"/>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva4.png"} alt="4"/>
                                     </Carousel.Item>
                                 </Carousel>
                             </Col>
