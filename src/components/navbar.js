@@ -6,10 +6,10 @@ import styles from './styles.module.css';
 
 const CustomNavbar = () => {
     return (
-        <Navbar id="navbar" expand="lg" className={`bg-body-terciary shadow-lg p-3 ${styles["navbar-fix"]}`}>
+        <Navbar id="navbar" expand="lg" data-bs-theme="dark" className={`bg-body-terciary shadow-lg p-3 ${styles["navbar-fix"]}`}>
             <Container>
-                <Navbar.Brand style={{ color: 'white' }}>
-                    <div className={styles["dev-icon"]}>
+                <Navbar.Brand>
+                    <div className={styles["dev-icon"]} style={{ color: 'white' }}>
                         &lt;/&gt;
                     </div>
                 </Navbar.Brand>
