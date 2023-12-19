@@ -50,6 +50,8 @@ const Contact = () => {
                     </Col>
                 </Row>
             </footer>
+            <small className='d-flex flex-row align-items-end justify-content-center' style={{ backgroundColor: 'rgb(29, 26, 26)', color: 'white'}}>&copy; 2023. All Rights Deserved</small>
+
         </>
     );
 }
