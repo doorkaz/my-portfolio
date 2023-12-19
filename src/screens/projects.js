@@ -24,64 +24,65 @@ const Projects = () => {
     };
     return (
         <>
-            <section id="projects" className='text-start'>
-                    <h2 className='fs-2'>Mis proyectos.</h2>
-                    <Row>
-                        <Col sm={12} md={6} className={styles["project"]}>
-                            <Col className={styles["project"]} style={{backgroundColor: '#17494d'}}>
-                                <small>Mobile App</small>
-                                <h3>Claps App</h3>
-                                <Carousel className={styles["project-img-container"]} activeIndex={indexClaps} onSelect={handleSelectClaps}>
+            <section id="projects" className='text-start mt-4 mx-3'>
+                <h2 className='fs-2'>Mis proyectos.</h2>
+
+                <Row>
+                    <Col sm={12} md={6} className={styles["project"]}>
+                        <Col className={styles["project"]} style={{backgroundColor: '#17494d'}}>
+                            <small>Mobile App</small>
+                            <h3>Claps App</h3>
+                            <Carousel className={styles["project-img-container"]} activeIndex={indexClaps} onSelect={handleSelectClaps}>
+                                <Carousel.Item>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps/canva1.png"} alt="1"/>
+                                </Carousel.Item>
                                     <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps/canva1.png"} alt="1"/>
-                                    </Carousel.Item>
-                                      <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps/canva2.png"} alt="2"/>
-                                    </Carousel.Item>
-                                </Carousel>
-                            </Col>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps/canva2.png"} alt="2"/>
+                                </Carousel.Item>
+                            </Carousel>
                         </Col>
-                        <Col sm={12} md={6} className={styles["project"]}>
-                            <Col className={styles["project"]} style={{backgroundColor: '#2a3838'}}>
-                                <small>Web Project</small>
-                                    <h3>EasyTake</h3>
-                                    <p></p>
-                                    <Carousel className={styles["project-img-container"]} activeIndex={indexEasyTake} onSelect={handleSelectEasyTake}>
-                                        <Carousel.Item>
-                                            <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva1.png"} alt="1"/>
-                                        </Carousel.Item>
-                                        <Carousel.Item>
-                                            <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva2.png"} alt="2"/>
-                                        </Carousel.Item>
-                                        <Carousel.Item>
-                                            <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva3.png"} alt="3"/>
-                                        </Carousel.Item>
-                                       
-                                    </Carousel>
-                            </Col>
-                        </Col>
-                        <Col sm={12} md={6} className={styles["project"]} >
-                            <Col className={styles["project"]} style={{backgroundColor: '#243443'}}>
-                                <small>Web Project</small>
-                                <h3>PrestigeTravels</h3>
+                    </Col>
+                    <Col sm={12} md={6} className={styles["project"]}>
+                        <Col className={styles["project"]} style={{backgroundColor: '#2a3838'}}>
+                            <small>Web Project</small>
+                                <h3>EasyTake</h3>
                                 <p></p>
-                                <Carousel className={styles["project-img-container"]} activeIndex={indexPrestigeTravels} onSelect={handleSelectPrestigeTravels}>
+                                <Carousel className={styles["project-img-container"]} activeIndex={indexEasyTake} onSelect={handleSelectEasyTake}>
                                     <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva1.png"} alt="1"/>
+                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva1.png"} alt="1"/>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva2.png"} alt="2"/>
+                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva2.png"} alt="2"/>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva3.png"} alt="3"/>
+                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva3.png"} alt="3"/>
                                     </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva4.png"} alt="4"/>
-                                    </Carousel.Item>
+                                    
                                 </Carousel>
-                            </Col>
                         </Col>
-                    </Row>
+                    </Col>
+                    <Col sm={12} md={6} className={styles["project"]} >
+                        <Col className={styles["project"]} style={{backgroundColor: '#243443'}}>
+                            <small>Web Project</small>
+                            <h3>PrestigeTravels</h3>
+                            <p></p>
+                            <Carousel className={styles["project-img-container"]} activeIndex={indexPrestigeTravels} onSelect={handleSelectPrestigeTravels}>
+                                <Carousel.Item>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva1.png"} alt="1"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva2.png"} alt="2"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva3.png"} alt="3"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva4.png"} alt="4"/>
+                                </Carousel.Item>
+                            </Carousel>
+                        </Col>
+                    </Col>
+                </Row>
             </section>
         </>
     );

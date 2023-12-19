@@ -1,3 +1,4 @@
+
 h1 {
     font-size: 1.6rem;
 }
@@ -65,30 +66,9 @@ li {
     overflow: hidden;
 }
 
-.slider .slide-track{
-    display: flex;
-    animation: scroll 5s linear infinite;
-    -webkit-animation: scroll 5s linear infinite;
-    width: calc(40px * 14);
-}
-.slider .slide{
-    width: 40px;
-}
-
-.slider .slide img{
-    width: 100%;
-}
-
-@keyframes scroll{
-    0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-    100% {
-        -webkit-transform: translateX(calc(-50px * 7));
-        transform: translateX(calc(-50px * 7));
-    }
-    
+.skills-text{
+    color: #0a2744;
+    font-weight: 600;
 }
 .footer {
     width: 100%;
