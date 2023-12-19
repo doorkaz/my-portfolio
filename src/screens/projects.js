@@ -32,6 +32,7 @@ const Projects = () => {
                         <Col className={styles["project"]} style={{backgroundColor: '#17494d'}}>
                             <small>Mobile App</small>
                             <h3>Claps App</h3>
+                            <p>Fui Front-end Developer trabajando en sincronía con el Backend para consumir la API Rest de forma exitosa, brindé diseño a la aplicación y depuración a errores.</p>
                             <Carousel className={styles["project-img-container"]} activeIndex={indexClaps} onSelect={handleSelectClaps}>
                                 <Carousel.Item>
                                     <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps/canva1.png"} alt="1"/>
@@ -46,7 +47,7 @@ const Projects = () => {
                         <Col className={styles["project"]} style={{backgroundColor: '#2a3838'}}>
                             <small>Web Project</small>
                                 <h3>EasyTake</h3>
-                                <p></p>
+                                <p>Fui Full-Stack Developer, creé modelos, gestioné solicitudes HTTP mediante llamadas con Express.js, creé la solicitud de toma de horas y la visualización de los exámenes por fecha.</p>
                                 <Carousel className={styles["project-img-container"]} activeIndex={indexEasyTake} onSelect={handleSelectEasyTake}>
                                     <Carousel.Item>
                                         <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva1.png"} alt="1"/>
@@ -65,7 +66,7 @@ const Projects = () => {
                         <Col className={styles["project"]} style={{backgroundColor: '#243443'}}>
                             <small>Web Project</small>
                             <h3>PrestigeTravels</h3>
-                            <p></p>
+                            <p>Fui Full-Stack Developer, implementé consultas SQL para visualizar el contenido en la página, implementé tanto funciones clave como búsqueda avanzada, carrito de compras y wishlist, como el diseño de la página.</p>
                             <Carousel className={styles["project-img-container"]} activeIndex={indexPrestigeTravels} onSelect={handleSelectPrestigeTravels}>
                                 <Carousel.Item>
                                     <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva1.png"} alt="1"/>
