@@ -36,6 +36,10 @@ li {
     align-items: flex-start;
 }
 
+section{
+    scroll-margin-top: 15vh;
+}
+
 .aboutme {
     margin-top: auto;
     text-align: center;
