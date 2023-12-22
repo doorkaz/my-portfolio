@@ -26,14 +26,15 @@ const Projects = () => {
         <>
             <section id="projects" className='text-start mt-4 mx-3'>
                 <h2 className='fs-2'>Mis proyectos.</h2>
-
                 <Row>
-                    <Col sm={12} md={6} className={styles["project"]}>
+                    <Col md={12} lg={6} className={styles["project"]}>
                         <Col className={styles["project"]} style={{backgroundColor: '#17494d'}}>
                             <small>Mobile App</small>
                             <h3>Claps App</h3>
-                            <p>Fui Front-end Developer trabajando en sincronía con el Backend para consumir la API Rest de forma exitosa, brindé diseño a la aplicación y depuración a errores.</p>
-                            <Carousel className={styles["project-img-container"]} activeIndex={indexClaps} onSelect={handleSelectClaps}>
+                            <h5>Aplicación para visualizar teatros y obras cercanas.</h5>
+                            <h6 style={{color: '#21FFA4'}}>TypeScript, React Native, Django REST, SQLite3, Python</h6>
+                            <p>Fui Front-end Developer, brindé diseño a la aplicación, hice peticiones a la API con Axios y depuré errores trabajando en sincronía con el Backend para garantizar un consumo de la API Rest de forma exitosa.</p>
+                            <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexClaps} onSelect={handleSelectClaps}>
                                 <Carousel.Item>
                                     <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps/canva1.png"} alt="1"/>
                                 </Carousel.Item>
@@ -43,31 +44,35 @@ const Projects = () => {
                             </Carousel>
                         </Col>
                     </Col>
-                    <Col sm={12} md={6} className={styles["project"]}>
+                    <Col md={12} lg={6} className={styles["project"]}>
                         <Col className={styles["project"]} style={{backgroundColor: '#2a3838'}}>
                             <small>Web Project</small>
-                                <h3>EasyTake</h3>
-                                <p>Fui Full-Stack Developer, creé modelos, gestioné solicitudes HTTP mediante llamadas con Express.js, creé la solicitud de toma de horas y la visualización de los exámenes por fecha.</p>
-                                <Carousel className={styles["project-img-container"]} activeIndex={indexEasyTake} onSelect={handleSelectEasyTake}>
-                                    <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva1.png"} alt="1"/>
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva2.png"} alt="2"/>
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva3.png"} alt="3"/>
-                                    </Carousel.Item>
-                                    
-                                </Carousel>
+                            <h3>EasyTake</h3>
+                            <h5>Aplicación para gestionar la toma de horas en un hospital público.</h5>
+                            <h6 style={{color: '#21FFA4'}}>NodeJS, React, ExpressJS, JavaScript, MongoDB, CSS, Bootstrap</h6>
+                            <p>Fui Full-Stack Developer, creé modelos, gestioné solicitudes HTTP mediante llamadas con Express.js, depuré las solicitudes, creé la solicitud de toma de horas y la visualización de los exámenes por fecha.</p>
+                            <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexEasyTake} onSelect={handleSelectEasyTake}>
+                                <Carousel.Item>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva1.png"} alt="1"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva2.png"} alt="2"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva3.png"} alt="3"/>
+                                </Carousel.Item>
+                                
+                            </Carousel>
                         </Col>
                     </Col>
-                    <Col sm={12} md={6} className={styles["project"]} >
+                    <Col md={12} lg={6} className={styles["project"]} >
                         <Col className={styles["project"]} style={{backgroundColor: '#243443'}}>
                             <small>Web Project</small>
                             <h3>PrestigeTravels</h3>
+                            <h5>Aplicación para comprar paquetes y arrendar hoteles de viajes.</h5>
+                            <h6 style={{color: '#21FFA4'}}>PHP, MySQL, CSS, JS</h6>
                             <p>Fui Full-Stack Developer, implementé consultas SQL para visualizar el contenido en la página, implementé tanto funciones clave como búsqueda avanzada, carrito de compras y wishlist, como el diseño de la página.</p>
-                            <Carousel className={styles["project-img-container"]} activeIndex={indexPrestigeTravels} onSelect={handleSelectPrestigeTravels}>
+                            <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexPrestigeTravels} onSelect={handleSelectPrestigeTravels}>
                                 <Carousel.Item>
                                     <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva1.png"} alt="1"/>
                                 </Carousel.Item>

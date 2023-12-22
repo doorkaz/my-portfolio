@@ -1,11 +1,11 @@
-import './App.css';
-import './components/custom.scss';
 // Rutas
 import CustomNavbar from './components/navbar.js';
 import CarouselProjects from './screens/carousel-projects.js';
 import About from './screens/about.js';
+import Skills from './screens/skills.js';
 import Projects from './screens/projects.js';
 import Contact from './screens/contact.js';
+
 // React-Bootstrap
 import Container from 'react-bootstrap/Container';
 
@@ -17,6 +17,7 @@ function App() {
 				<Container fluid="md">
 					<CarouselProjects/>
 					<About/>
+					<Skills/>
 					<Projects/>
 				</Container>
 			</div>

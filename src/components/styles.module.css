@@ -1,4 +1,3 @@
-
 h1 {
     font-size: 1.6rem;
 }
@@ -133,10 +132,8 @@ section{
     max-width: 800px;
 }
 
-
 .skills-img{
-    width: 40px;
-    height: 40px;
+    width: 55px;
 }
 
 .footer-item{
@@ -149,6 +146,7 @@ section{
     display: flex;
     flex-direction: column;
 }
+
 /* BREAKPOINTS */
 /* XSMALL DEVICES */
 @media screen and (max-width: 400px) {
@@ -173,7 +171,7 @@ section{
     }
 }
 /* SMALL DEVICES */
-@media screen and (min-width:400px) and (max-width: 767px) {
+@media screen and (min-width:400px) and (max-width: 767.99px) {
     body {
         font-size: 14px;
     }
@@ -195,7 +193,7 @@ section{
     }
 }
 /* Tablets */
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023.99px){
     body {
         font-size: 16px;
     }
@@ -212,8 +210,37 @@ section{
         width: 30px;
     }
 }
+
+@media screen and (max-width: 404.99px){
+    .carousel-min-height{
+        min-height: 400px;
+    }
+}
+
+@media screen and (min-width: 405px) and (max-width: 576px){
+    .carousel-min-height{
+        min-height: 370px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767.99px){
+    .carousel-min-height{
+        min-height: 700px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.99px){
+    .carousel-min-height{
+        min-height: 230px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023.99px){
+    .carousel-min-height{
+        min-height: 150px;
+    }
+}
 /* Desktop */
-@media screen and (min-width: 1024px) and (max-width: 1199px){
+@media screen and (min-width: 1024px) and (max-width: 1199.99px){
     body {
         font-size: 17px;
     }
@@ -232,6 +259,9 @@ section{
     .hi{
         height: auto;
         width: 30px;
+    }
+    .carousel-min-height{
+        min-height: 150px;
     }
 }
 
@@ -254,5 +284,8 @@ section{
     .hi{
         height: auto;
         width: 30px;
+    }
+    .carousel-min-height{
+        min-height: 150px;
     }
 }
