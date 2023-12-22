@@ -10,11 +10,7 @@ This is my portfolio made with ReactJS, CSS, Bootstrap, JavaScript, HTML5
 
 * [LinkedIn](https://www.linkedin.com/in/pablo-retamales-jara-b95511232/)
 
-# Dependencies
-react-bootstrap bootstrap
+* [Portfolio](https://doorkaz.github.io/my-portfolio/)
 
-bootstrap
-
-react-router-dom
-
-bootstrap-icons
+## Hiring
+If you're interested in hiring me, feel free to reach out by sending an email to retamalespj@gmail.com.

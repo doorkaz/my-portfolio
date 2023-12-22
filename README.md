@@ -13,4 +13,4 @@ Este es mi portafolio creado con ReactJS, CSS, Bootstrap, JavaScript, HTML5
 * [Portafolio Web](https://doorkaz.github.io/my-portfolio/)
 
 ## Contratación
-Si te interesa contratarme puedes escribirme a retamalespj@gmail.com
+Si estás interesado en contratarme, puedes ponerte en contacto conmigo enviándome un correo electrónico a retamalespj@gmail.com.
