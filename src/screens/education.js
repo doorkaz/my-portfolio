@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 const Education = () => {
     return (
         <>
-            <section id="education">
+            <section id="education" className='my-3'>
                 <h3 className='fs-4'>Mis estudios</h3>
                 <div className='d-flex align-items-center justify-content-center mx-5'>
                     <Row>
