@@ -19,7 +19,7 @@ span {
 }
 
 
-ul {
+/* ul {
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -33,7 +33,7 @@ li {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-}
+} */
 
 section{
     scroll-margin-top: 15vh;

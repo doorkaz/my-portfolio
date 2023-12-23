@@ -21,6 +21,7 @@ const CustomNavbar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
                     <Nav.Link style={{color: 'white'}} href="#about">Sobre mí</Nav.Link>
+                    <Nav.Link style={{color: 'white'}} href="#education">Educación</Nav.Link>
                     <Nav.Link style={{color: 'white'}} href="#projects">Proyectos</Nav.Link>
                     <Nav.Link style={{color: 'white'}} href="#contact">Contacto</Nav.Link>
                 </Nav>
