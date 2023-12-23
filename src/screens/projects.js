@@ -32,7 +32,7 @@ const Projects = () => {
                             <small>Mobile App</small>
                             <h3>Claps App</h3>
                             <h5>Aplicación para descubrir y dar difusión a obras de teatro locales cercanas.</h5>
-                            <h6 style={{color: '#ffa09c'}}>Frontend Developer</h6>
+                            <h6 style={{color: '#ff99ff'}}>Frontend Developer</h6>
                             <h6 style={{color: '#21FFA4'}}>TypeScript, React Native, Django REST Framework, SQLite3, Python, Bootstrap</h6>
                             <p>Diseño de la aplicación con el framework de Bootstrap, creación de peticiones a la API con Axios y depuración de errores trabajando en sincronía con el Backend para garantizar un consumo de la API Rest de forma exitosa.</p>
                             <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexClaps} onSelect={handleSelectClaps}>
@@ -50,7 +50,7 @@ const Projects = () => {
                             <small>Web Project</small>
                             <h3>EasyTake</h3>
                             <h5>Aplicación para gestionar la toma de horas en un hospital público.</h5>
-                            <h6 style={{color: '#ffa09c'}}>Full-stack Developer</h6>
+                            <h6 style={{color: '#ff99ff'}}>Full-stack Developer</h6>
                             <h6 style={{color: '#21FFA4', marginBottom: 'auto'}}>NodeJS, React, ExpressJS, JavaScript, MongoDB, CSS, Bootstrap</h6>
                             <p>Creación de modelos, gestión de solicitudes HTTP mediante llamadas creando la API REST con Express.js, depuración de las solicitudes HTTP, creación de la solicitud de toma de horas y la visualización de los exámenes por fecha.</p>
                             <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexEasyTake} onSelect={handleSelectEasyTake}>
@@ -71,7 +71,7 @@ const Projects = () => {
                             <small>Web Project</small>
                             <h3>PrestigeTravels</h3>
                             <h5>Aplicación para adquirir paquetes turísticos y reservar alojamientos en hoteles.</h5>
-                            <h6 style={{color: '#ffa09c'}}>Full-stack Developer</h6>
+                            <h6 style={{color: '#ff99ff'}}>Full-stack Developer</h6>
                             <h6 style={{color: '#21FFA4'}}>PHP, MySQL, CSS, Bootstrap</h6>
                             <p>Implementación de querys SQL para la visualización del contenido en la página, implementación de tanto funciones clave como búsqueda avanzada, carrito de compras y wishlist, así como el diseño de la página con Bootstrap.</p>
                             <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexPrestigeTravels} onSelect={handleSelectPrestigeTravels}>
