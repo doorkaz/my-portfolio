@@ -32,8 +32,9 @@ const Projects = () => {
                             <small>Mobile App</small>
                             <h3>Claps App</h3>
                             <h5>Aplicación para descubrir y dar difusión a obras de teatro locales cercanas.</h5>
+                            <h6 style={{color: '#ffa09c'}}>Frontend Developer</h6>
                             <h6 style={{color: '#21FFA4'}}>TypeScript, React Native, Django REST Framework, SQLite3, Python, Bootstrap</h6>
-                            <p>Fui Front-end Developer, brindé diseño a la aplicación, hice peticiones a la API con Axios y depuré errores trabajando en sincronía con el Backend para garantizar un consumo de la API Rest de forma exitosa.</p>
+                            <p>Diseño de la aplicación con el framework de Bootstrap, creación de peticiones a la API con Axios y depuración de errores trabajando en sincronía con el Backend para garantizar un consumo de la API Rest de forma exitosa.</p>
                             <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexClaps} onSelect={handleSelectClaps}>
                                 <Carousel.Item>
                                     <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/claps/canva1.png"} alt="1"/>
@@ -49,8 +50,9 @@ const Projects = () => {
                             <small>Web Project</small>
                             <h3>EasyTake</h3>
                             <h5>Aplicación para gestionar la toma de horas en un hospital público.</h5>
+                            <h6 style={{color: '#ffa09c'}}>Full-stack Developer</h6>
                             <h6 style={{color: '#21FFA4', marginBottom: 'auto'}}>NodeJS, React, ExpressJS, JavaScript, MongoDB, CSS, Bootstrap</h6>
-                            <p>Fui Full-Stack Developer, creé modelos, gestioné solicitudes HTTP mediante llamadas con Express.js, depuré las solicitudes, creé la solicitud de toma de horas y la visualización de los exámenes por fecha.</p>
+                            <p>Creación de modelos, gestión de solicitudes HTTP mediante llamadas creando la API REST con Express.js, depuración de las solicitudes HTTP, creación de la solicitud de toma de horas y la visualización de los exámenes por fecha.</p>
                             <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexEasyTake} onSelect={handleSelectEasyTake}>
                                 <Carousel.Item>
                                     <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/easytake/canva1.png"} alt="1"/>
@@ -69,8 +71,9 @@ const Projects = () => {
                             <small>Web Project</small>
                             <h3>PrestigeTravels</h3>
                             <h5>Aplicación para adquirir paquetes turísticos y reservar alojamientos en hoteles.</h5>
+                            <h6 style={{color: '#ffa09c'}}>Full-stack Developer</h6>
                             <h6 style={{color: '#21FFA4'}}>PHP, MySQL, CSS, Bootstrap</h6>
-                            <p>Fui Full-Stack Developer, implementé consultas SQL para visualizar el contenido en la página, implementé tanto funciones clave como búsqueda avanzada, carrito de compras y wishlist, como el diseño de la página.</p>
+                            <p>Implementación de querys SQL para la visualización del contenido en la página, implementación de tanto funciones clave como búsqueda avanzada, carrito de compras y wishlist, así como el diseño de la página con Bootstrap.</p>
                             <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexPrestigeTravels} onSelect={handleSelectPrestigeTravels}>
                                 <Carousel.Item>
                                     <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/prestigetravels/canva1.png"} alt="1"/>
