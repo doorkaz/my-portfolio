@@ -98,7 +98,7 @@ section{
     top: 0;
     width: 100%;
     overflow: hidden;
-    z-index: 2;
+    z-index: 9999;
     background-color: rgb(9, 45, 54)
 }
 

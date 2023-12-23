@@ -32,7 +32,7 @@ const Projects = () => {
                             <small>Mobile App</small>
                             <h3>Claps App</h3>
                             <h5>Aplicación para descubrir y dar difusión a obras de teatro locales cercanas.</h5>
-                            <h6 style={{color: '#21FFA4'}}>TypeScript, React Native, Django REST, SQLite3, Python</h6>
+                            <h6 style={{color: '#21FFA4'}}>TypeScript, React Native, Django REST Framework, SQLite3, Python, Bootstrap</h6>
                             <p>Fui Front-end Developer, brindé diseño a la aplicación, hice peticiones a la API con Axios y depuré errores trabajando en sincronía con el Backend para garantizar un consumo de la API Rest de forma exitosa.</p>
                             <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexClaps} onSelect={handleSelectClaps}>
                                 <Carousel.Item>
@@ -69,7 +69,7 @@ const Projects = () => {
                             <small>Web Project</small>
                             <h3>PrestigeTravels</h3>
                             <h5>Aplicación para adquirir paquetes turísticos y reservar alojamientos en hoteles.</h5>
-                            <h6 style={{color: '#21FFA4'}}>PHP, MySQL, CSS, JS</h6>
+                            <h6 style={{color: '#21FFA4'}}>PHP, MySQL, CSS, Bootstrap</h6>
                             <p>Fui Full-Stack Developer, implementé consultas SQL para visualizar el contenido en la página, implementé tanto funciones clave como búsqueda avanzada, carrito de compras y wishlist, como el diseño de la página.</p>
                             <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexPrestigeTravels} onSelect={handleSelectPrestigeTravels}>
                                 <Carousel.Item>

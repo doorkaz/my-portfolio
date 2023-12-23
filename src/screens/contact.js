@@ -36,7 +36,7 @@ const Contact = () => {
                     </Col>
                     <Col xs={12} sm={12} md={5} lg={5} className={styles["contact-column-res"]}>
                         <div className={styles["footer-item"]}>
-                            <i class="bi bi-github me-1"/>
+                            <i className="bi bi-github me-1"/>
                             <a className={styles["link"]} href="https://github.com/doorkaz"> github.com/doorkaz</a>
                         </div>
                         <div className={styles["footer-item"]}>
