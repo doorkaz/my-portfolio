@@ -7,7 +7,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const skills = () => {
     return (
         <>
-            <section id="skills" className={`mt-5 ${styles.aboutme}`}>
+            <section id="skills" className={`mt-4 ${styles.aboutme}`}>
                 <h3 className='fs-4'>Mi stack de tecnologías</h3>
                 <Carousel className={styles["carousel-min-height"]} interval={null} data-bs-theme="dark" controls={false}>
                     <Carousel.Item>
