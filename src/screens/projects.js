@@ -22,11 +22,35 @@ const Projects = () => {
     const handleSelectPrestigeTravels = (selectedIndex) => {
         setIndexPrestigeTravels(selectedIndex);
     };
+
+    const [indexDatafy, setIndexDatafy] = useState(0);
+    
+    const handleSelectDatafy = (selectedIndex) => {
+        setIndexDatafy(selectedIndex);
+    };
     return (
         <>
             <section id="projects" className='text-start mt-4 mx-3'>
                 <h2 className='fs-2'>Mis proyectos.</h2>
                 <Row>
+                    <Col md={12} lg={6} className={styles["project"]}>
+                        <Col className={styles["project"]} style={{backgroundColor: '#2a3838'}}>
+                            <small>Web App</small>
+                            <h3>Datafy</h3>
+                            <h5>Aplicación para visualizar datos de Spotify.</h5>
+                            <h6 style={{color: '#ff99ff'}}>Proyecto Personal</h6>
+                            <h6 style={{color: '#21FFA4', marginTop: '5px'}}>React, JavaScript, NodeJS, ExpressJS, CSS</h6>
+                            <p style={{marginBottom: 0}}>Creación de endpoints en la API REST creada con ExpressJS para autorizar al usuario con la API de Spotify y otorgar el access token, requests a la API para obtener datos del usuario, diseño de la web con CSS. </p>
+                            <Carousel className={styles["project-img-container"]} interval={null} activeIndex={indexDatafy} onSelect={handleSelectDatafy}>
+                                <Carousel.Item>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/datafy/canva-1.png"} alt="1"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className={styles["carousel-img"]} src={process.env.PUBLIC_URL +"/images/carousel/datafy/canva-2.png"} alt="1"/>
+                                </Carousel.Item>
+                            </Carousel>
+                        </Col>
+                    </Col>
                     <Col md={12} lg={6} className={styles["project"]}>
                         <Col className={styles["project"]} style={{backgroundColor: '#17494d'}}>
                             <small>Mobile App</small>
