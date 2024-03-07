@@ -99,14 +99,19 @@ section{
     width: 100%;
     overflow: hidden;
     z-index: 9999;
-    background-color: rgb(9, 45, 54)
+    background-color: rgb(9, 45, 54);
 }
 
-.dev-icon{
-    background-color: #3f7686;
+.my-photo-navbar{
     border-radius: 50%;
-    padding: 3px;
-    font-size: 1.16rem;
+    width: 42px;
+    height: 42px;
+}
+
+.my-photo{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
 }
 .link {
     color: white;
