@@ -14,7 +14,7 @@ export default function RootLayout ({
 }>): JSX.Element {
   return (
     <html lang='en'>
-      <body className='bg-neutral-900 w-screen h-full text-white'>
+      <body className='bg-neutral-900 w-screen h-full text-white overflow-x-hidden'>
         {children}
       </body>
     </html>

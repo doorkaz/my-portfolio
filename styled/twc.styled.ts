@@ -9,4 +9,4 @@ export const H3 = twc.h3`text-xl xs:text-2xl`
 export const P = twc.p`text-lg xs:text-xl`
 
 // Layout Components - Container
-export const Container = twc.div`container mx-auto sm:px-12`
+export const Container = twc.div`container mx-auto px-12`
