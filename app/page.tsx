@@ -3,6 +3,7 @@ import { HeroSection } from './components/HeroSection'
 import { AboutMe } from './components/AboutMe'
 import { Container } from '@/styled/twc.styled'
 import { Skills } from './components/skills/Skills'
+import { Projects } from './components/projects/Projects'
 
 export default function Home (): JSX.Element {
   return (
@@ -11,6 +12,7 @@ export default function Home (): JSX.Element {
       <Container className='flex flex-col py-8 gap-8'>
         <AboutMe />
         <Skills />
+        <Projects />
       </Container>
     </>
   )

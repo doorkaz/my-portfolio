@@ -1,0 +1,28 @@
+/* Libreria SwiperJS */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.swiper-pagination-bullet {
+  opacity: 1;
+  background: rgb(130, 130, 130);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #ffffff;
+}
