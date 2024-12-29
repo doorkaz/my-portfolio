@@ -4,6 +4,7 @@ import { AboutMe } from './components/AboutMe'
 import { Container } from '@/styled/twc.styled'
 import { Skills } from './components/skills/Skills'
 import { Projects } from './components/projects/Projects'
+import { FAQ as FrequentlyAskedQuestions } from './components/faq/FAQ'
 
 export default function Home (): JSX.Element {
   return (
@@ -13,6 +14,7 @@ export default function Home (): JSX.Element {
         <AboutMe />
         <Skills />
         <Projects />
+        <FrequentlyAskedQuestions />
       </Container>
     </>
   )
