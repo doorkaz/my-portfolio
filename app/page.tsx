@@ -7,6 +7,7 @@ import { Projects } from './components/projects/Projects'
 import { FAQ as FrequentlyAskedQuestions } from './components/faq/FAQ'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { Education } from './components/education/Education'
 
 export default function Home (): JSX.Element {
   return (
@@ -18,6 +19,7 @@ export default function Home (): JSX.Element {
         <AboutMe />
         <Skills />
         <Projects />
+        <Education />
         <FrequentlyAskedQuestions />
       </Container>
 
