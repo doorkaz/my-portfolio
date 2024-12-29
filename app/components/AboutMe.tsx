@@ -5,7 +5,7 @@ export const AboutMe = (): JSX.Element => {
   return (
     <section
       id='about-me'
-      className='flex flex-col sm:flex-row justify-center items-start py-8'
+      className='flex flex-col sm:flex-row justify-center items-start'
     >
       <div className='w-full sm:w-3/12 me-0 sm:me-8'>
         <H3>Hey, soy Pablo!</H3>
