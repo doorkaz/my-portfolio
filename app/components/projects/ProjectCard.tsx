@@ -3,6 +3,7 @@ import { H2, P } from '@/styled/twc.styled'
 import DefaultCardImage from '@/public/assets/images/hero-section-background.jpg'
 import { JSX } from 'react'
 import Image from 'next/image'
+import { HighlightText } from '@/components/HighlightText'
 
 export const ProjectCard = (project: Project): JSX.Element => {
   const imageSrc = (project.images.length > 0) ? project.images[0] : DefaultCardImage
@@ -16,7 +17,7 @@ export const ProjectCard = (project: Project): JSX.Element => {
         <P className=' font-lighter'>{project.description}</P>
 
         {/* Stack */}
-        <P className='font-lighter my-1 text-emerald-300'>{project.stack.join(', ')}</P>
+        <HighlightText className='font-lighter my-1'>{project.stack.join(', ')}</HighlightText>
       </div>
 
       {/* Imagen */}
