@@ -1,0 +1,28 @@
+@keyframes skills-scrolling-right {
+  0%{
+      transform: translateX(0);
+  }
+  100%{
+      /* Calc(Ancho total tarjeta * Cantidad de tarjetas - margen tarjeta * cantidad total duplicado) */
+      transform: translateX(calc(-160px * 17 - 1.25rem * 17 * 2)); 
+  }
+}
+
+
+@keyframes skills-scrolling-left {
+  0%{
+      transform: translateX(calc(-160px * 17 - 1.25rem * 17 * 2));
+  }
+  100%{
+      /* Calc(Ancho total tarjeta * Cantidad de tarjetas - margen tarjeta * cantidad total duplicado) */
+      transform: translateX(0); 
+  }
+}
+
+.animate-scrolling-right{
+  animation: skills-scrolling-right 25s linear infinite;
+}
+
+.animate-scrolling-left{
+  animation: skills-scrolling-left 25s linear infinite;
+}
