@@ -8,5 +8,8 @@ export const H3 = twc.h3`text-xl xs:text-2xl`
 // Typography Components - Paragraph
 export const P = twc.p`text-lg xs:text-xl`
 
+// Typography Components - Span
+export const Span = twc.span`text-xl`
+
 // Layout Components - Container
 export const Container = twc.div`container mx-auto px-12`
