@@ -13,7 +13,8 @@ export default {
     extend: {
       colors: {
         background: 'var(--background)',
-        foreground: 'var(--foreground)'
+        foreground: 'var(--foreground)',
+        'neutral-750': 'rgb(43 43 43)'
       },
       backgroundImage: {
         'hero-section': `url(${heroSectionImagePath})`
