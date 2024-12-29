@@ -5,7 +5,7 @@ import { Container } from '@/styled/twc.styled'
 import { Skills } from './components/skills/Skills'
 import { Projects } from './components/projects/Projects'
 import { FAQ as FrequentlyAskedQuestions } from './components/faq/FAQ'
-import { Footer } from './components/Footer'
+import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
 export default function Home (): JSX.Element {
