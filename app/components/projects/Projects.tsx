@@ -18,7 +18,7 @@ export const Projects = (): JSX.Element => {
 
   return (
     <section id='projects' className='overflow-x-hidden mt-6'>
-      <H2 className='mb-6'>Mis proyectos.</H2>
+      <H2 className='mb-2'>Mis proyectos.</H2>
       <Swiper
         spaceBetween={40}
         className='mySwiper'

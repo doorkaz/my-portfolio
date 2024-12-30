@@ -11,7 +11,7 @@ export const CertificationCard = (props: Certification): JSX.Element => {
     <div key={id} className='flex flex-col'>
       <Span className='flex items-center'>{name} ({platform})</Span>
       <ButtonLink
-        className='w-4/12 mt-2'
+        className='w-[225px] mt-2'
         href={href}
         target='_blank'
         rel='noopener noreferrer'

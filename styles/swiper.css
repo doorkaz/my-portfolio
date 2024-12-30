@@ -4,17 +4,22 @@
   height: 100%;
 }
 
+.swiper-wrapper {
+  align-items: stretch
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: auto;
 }
 
 .swiper-pagination {
   position: relative;
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 
 .swiper-pagination-bullet {

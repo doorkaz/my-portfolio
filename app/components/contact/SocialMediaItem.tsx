@@ -26,9 +26,9 @@ export const SocialMediaItem = (props: SocialMediaItemProps): JSX.Element => {
         </div>
 
         <div className='flex flex-col justify-center items-start ml-2 whitespace-nowrap'>
-          <span className='text-sm text-neutral-300'>{name}</span>
+          <span className='hidden xs:inline text-sm text-neutral-300'>{name}</span>
           <span className='hidden lg:flex text-md'>{hrefDisplay}</span>
-          <span className='flex lg:hidden text-md'>Ir a {name}</span>
+          <span className='hidden xs:inline lg:hidden text-md'>Ir a {name}</span>
         </div>
       </a>
     </div>
